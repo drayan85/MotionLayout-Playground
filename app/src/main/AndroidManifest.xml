@@ -12,6 +12,10 @@
         android:theme="@style/AppTheme"
         tools:ignore="AllowBackup,GoogleAppIndexingWarning">
         <activity
+            android:name=".GooglePayCardSelectorActivity"
+            android:label="Google Pay Demo"
+            android:exported="true" />
+        <activity
             android:name=".DialerActivity"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
         <activity android:name=".MainActivity">
@@ -28,7 +32,9 @@
         <activity android:name=".BasicMotionActivity" />
         <activity android:name=".TwoViewsMotionActivity" />
         <activity android:name=".AttributeActivity" />
-        <activity android:name=".GoogleIOExampleActivity" />
+        <activity
+            android:name=".GoogleIOExampleActivity"
+            android:exported="true" />
         <activity
             android:name=".CustomDrivenActivity"
             android:theme="@style/CustomDrivenTheme" />
@@ -40,6 +46,9 @@
             android:name=".MotionViewPagerActivity"
             android:exported="true"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".DribbleProfileActivity"
+            android:exported="true" />
     </application>
 
 </manifest>
